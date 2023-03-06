@@ -1,0 +1,24 @@
+select {
+  box-sizing: border-box;
+  border-radius: 6px;
+  /* &:hover {
+        cursor: pointer;
+    }
+    
+    &::placeholder {
+        color: #919191;
+    } */
+}
+
+select.select--yellow {
+  width: 675px;
+  height: 50px;
+  background-color: #FFFFFF;
+  color: #565656;
+  padding-left: 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}

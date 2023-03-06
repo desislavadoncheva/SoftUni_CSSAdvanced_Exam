@@ -1,0 +1,73 @@
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+p.regular {
+  color: #565656;
+}
+
+p.regular--white {
+  color: #FFFFFF;
+}
+
+p.card--course__info__function {
+  font-weight: 500;
+  color: #B2B2B2;
+  padding: 10px 0;
+  margin: 0;
+}
+
+p.regular--orange {
+  color: #FF9100;
+}
+
+p.regular--bold {
+  color: #565656;
+  font-weight: bold;
+}
+
+p.footer__info__navbar__items__header {
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 65px;
+  margin-bottom: 16px;
+  width: fit-content;
+}
+
+p.footer__item--rights {
+  line-height: 19px;
+  color: #919191;
+  margin: 0;
+}
+
+p.main__header__label {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+p.card--course__uppercase {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #565656;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+p.main__add--bold {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #565656;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 6px;
+}

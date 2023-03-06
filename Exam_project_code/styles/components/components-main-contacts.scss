@@ -1,0 +1,123 @@
+@import "../settings/settings-colors.scss";
+
+.contacts-main {
+    display: grid;
+    grid-template-rows: 425px 685px 570px;
+
+    .main__header--map {
+        grid-row: 1/2;
+
+        & img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .main__header--add {
+        width: 520px;
+        height: 380px;
+        background-color: $white;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+        position: absolute;
+        left: 75px;
+        top: 200px;
+        z-index: 2;
+
+        &__container {
+            margin: 30px;
+            display: grid;
+            grid-template-columns: 215px 215px;
+            column-gap: 25px;
+            grid-template-rows: 130px 95px 45px;
+            row-gap: 30px;
+
+            &--first {
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            &--second {
+                grid-row: 1/2;
+                grid-column: 2/3;
+
+                &__container {
+                    display: flex;
+                    flex-flow: column wrap;
+                    height: 65px;
+
+                    .regular {
+                        margin-left: 25px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        width: 105px;
+                    }
+                }
+            }
+
+            &--third {
+                grid-row: 2/3;
+                grid-column: 1/2;
+            }
+
+            &--button {
+                grid-row: 3/4;
+                grid-column: 1/4;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .main__header--white {
+        grid-row: 2/3;
+
+        .main__header--white__heading--w {
+            padding-top: 180px;
+            padding-bottom: 30px;
+        }
+
+        &__container {
+            width: 850px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-rows: 50px 190px 50px;
+            row-gap: 30px;
+
+            &__form--small {
+                grid-row: 1/2;
+                display: grid;
+                grid-template-columns: 410px 410px;
+                column-gap: 30px;
+            }
+
+            &__form--big {
+                grid-row: 2/3;
+                width: 100%;
+                height: 100%;
+            }
+
+            &__button {
+                grid-row: 3/4;
+                justify-items: flex-start;
+            }
+        }
+    }
+
+    .main__info {
+        grid-row: 3/4;
+        background-color: $secondary-50;
+
+        .main__header--white__heading--p {
+            padding-top: 95px;
+            padding-bottom: 45px;
+        }
+
+        &__container {
+            margin: 0 auto;
+            height: 395px;
+            display: grid;
+            grid-template-columns: 410px 410px 410px;
+            column-gap: 30px;
+        }
+    }
+}

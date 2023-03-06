@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+
+a.header__info__navbar__link {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #565656;
+}
+
+a.header__info__navbar__link:hover {
+  cursor: pointer;
+  color: #FF9100;
+}
+
+a.footer__info__navbar__link {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #E6E6E6;
+}
+
+a.footer__info__navbar__link:hover {
+  cursor: pointer;
+  color: #41BEAD;
+}

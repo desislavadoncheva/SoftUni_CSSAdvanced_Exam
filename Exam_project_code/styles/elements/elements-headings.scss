@@ -1,0 +1,80 @@
+@import '../settings/settings-colors.scss';
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+
+    margin: 0;
+    
+    &.main__add--orange
+    {
+        font-weight: bold;
+        color: $secondary-800;
+    }
+    
+    &.card--course__info__names
+    {
+        font-weight: bold;
+        color: $primary-300;
+    }
+
+    &.main__header--add__heading
+    {
+        font-weight: 600;
+        color: $primary-300;
+    }
+}
+
+h3
+{
+    &.main__info__container__text__heading
+    {
+        color: $primary-300;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+}
+
+h2
+{
+    &.card--course__info__head
+    {
+        color: $grey-700;
+    }
+
+    &.main__header--white__heading--w, 
+    &.main__header--white__heading--p
+    {
+        color: $primary-300;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+h1 {
+    color: $white;
+}
+
+@each $header, $size in (h1: 36px, h2: 30px, h3: 24px, h4: 20px) {
+    #{$header} {
+        font-size: $size;
+    }
+}
+
+@each $header, $lineheight in (h1: 44px, h2: 36px, h3: 30px, h4: 24px) {
+    #{$header} {
+        line-height: $lineheight;
+    }
+}

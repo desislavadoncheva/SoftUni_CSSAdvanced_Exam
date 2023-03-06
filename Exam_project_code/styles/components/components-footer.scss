@@ -1,0 +1,43 @@
+@import "../settings/settings-colors.scss";
+
+.footer 
+{
+    grid-row: 3/4;
+    background-color: $grey-700;
+    border-top: 10px solid $grey-500;
+
+    &__info
+    {
+        display: grid;
+        grid-template-rows: 325px;
+        grid-template-columns: 220px 990px;
+        column-gap: 75px;
+
+        &__picture
+        {
+            position: relative;
+            left: 0px;
+            top: -80px;
+        }
+        &__navbar
+        {
+            display: grid;
+            grid-template-columns: 255px 155px 180px 180px;
+            justify-content: space-between;
+
+            &__items
+            {
+                padding: 0;
+                margin: 0;
+
+                &__container
+                {
+                    display: flex;
+                    flex-flow: column wrap;
+                    height: 160px;
+                }
+            }
+        }
+    }
+}
+

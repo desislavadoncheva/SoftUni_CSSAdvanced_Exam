@@ -1,0 +1,35 @@
+.card--course {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+.card--course__logo {
+  grid-column: 1/2;
+}
+
+.card--course__info {
+  height: fit-content;
+  margin: 0 0 0 30px;
+  grid-column: 2/3;
+}
+
+.card--course__info__head {
+  margin: 0;
+}
+
+.card--trainers {
+  display: grid;
+  grid-template-rows: min-content min-content;
+  row-gap: 25px;
+}
+
+.card--trainers__logo {
+  grid-row: 1/2;
+  margin: 0;
+  margin-top: 55px;
+}
+
+.card--trainers__info {
+  grid-row: 2/3;
+  text-align: center;
+}

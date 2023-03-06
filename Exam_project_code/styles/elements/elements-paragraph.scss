@@ -1,0 +1,72 @@
+@import '../settings/settings-colors.scss';
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    &.regular {
+        color: $grey-700;
+    }
+    &.regular--white {
+        color: $white;
+    }
+    &.card--course__info__function {
+        font-weight: 500;
+        color: $grey-400;
+        padding: 10px 0;
+        margin: 0;
+    }
+    &.regular--orange {
+        color: $secondary-800;
+    }
+    &.regular--bold {
+        color: $grey-700;
+        font-weight: bold;
+    }
+    &.footer__info__navbar__items__header
+    {
+        font-size: 18px;
+        line-height: 22px;
+        color: $white;
+        font-weight: bold;
+        margin-top: 65px;
+        margin-bottom: 16px;
+        width: fit-content;
+    }
+    &.footer__item--rights
+    {
+        line-height: 19px;
+        color: $grey-500;
+        margin: 0;
+    }
+    &.main__header__label
+    {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: $white;
+        text-transform: uppercase;
+    }
+    &.card--course__uppercase
+    {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: $grey-700;
+        margin: 0;
+        padding-bottom: 12px;
+    }
+    &.main__add--bold
+    {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: $grey-700;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 6px;
+    }
+}
+

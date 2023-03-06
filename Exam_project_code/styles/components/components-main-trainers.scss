@@ -1,0 +1,66 @@
+@import "../settings/settings-colors.scss";
+
+.trainers-main {
+    display: grid;
+    grid-template-rows: 255px 550px 1475px 410px;
+
+    .main__header--orange {
+        grid-row: 1/2;
+        background-color: $secondary-600;
+    }
+
+    .main__cards__trainers {
+        grid-row: 2/3;
+
+        &__container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-between;
+            column-gap: 30px;
+            margin-top: 95px;
+            margin-bottom: 95px;
+        }
+    }
+
+    .main__cards__trainers__all {
+        grid-row: 3/4;
+
+        &__container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 330px 330px 330px 330px;
+            margin-top: 50px;
+            margin-bottom: 125px;
+            justify-items: center;
+        }
+    }
+
+    .main__header--lightblue {
+        grid-row: 4/5;
+        background-color: $blue-300;
+        border-top: 10px solid $blue-200;
+
+        &__form {
+            margin-left: 170px;
+            margin-top: 30px;
+            margin-bottom: 125px;
+            display: grid;
+            grid-template-columns: 230px 230px 230px 170px;
+            grid-template-rows: 50px;
+            column-gap: 30px;
+            justify-items: center;
+        }
+    }
+
+    .main__header__heading {
+        margin: 0 auto;
+        padding-top: 65px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .regular--white {
+        margin: 0 220px;
+        text-align: center;
+    }
+}

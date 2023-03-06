@@ -1,0 +1,32 @@
+@import "../settings/settings-colors.scss";
+
+a {
+    text-decoration: none;
+
+    &.header__info__navbar__link
+    {
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $grey-700;
+        &:hover {
+            cursor: pointer;
+            color: $secondary-800;
+        }
+    }
+
+    &.footer__info__navbar__link
+    {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: normal;
+        text-transform: capitalize;
+        color: $grey-200;
+        &:hover {
+            cursor: pointer;
+            color: $primary-300;
+        }
+    }
+}
+

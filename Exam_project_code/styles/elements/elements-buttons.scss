@@ -1,0 +1,41 @@
+@import '../settings/settings-colors.scss';
+
+button {
+    font-weight: 800;
+    color: $white;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+
+    &.btn--header
+    {
+        font-size: 13px;
+        line-height: 16px;
+        padding: 10px 22px;
+        background-color: $secondary-800;
+        border-radius: 100px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12), 0px 1px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    &.btn--orange
+    {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 14px 32px;
+        background-color: $secondary-800;
+        border-radius: 100px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12), 0px 1px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    &.btn--white
+    {
+        color: $secondary-800;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 14px 32px;
+        background-color: $white;
+        border-radius: 100px;
+        border: 1px solid $secondary-800;
+    }
+}
+

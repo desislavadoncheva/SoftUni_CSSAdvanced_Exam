@@ -1,0 +1,84 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  margin: 0;
+}
+
+h4.main__add--orange {
+  font-weight: bold;
+  color: #FF9100;
+}
+
+h4.card--course__info__names {
+  font-weight: bold;
+  color: #41BEAD;
+}
+
+h4.main__header--add__heading {
+  font-weight: 600;
+  color: #41BEAD;
+}
+
+h3.main__info__container__text__heading {
+  color: #41BEAD;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+h2.card--course__info__head {
+  color: #565656;
+}
+
+h2.main__header--white__heading--w, h2.main__header--white__heading--p {
+  color: #41BEAD;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h1 {
+  line-height: 44px;
+}
+
+h2 {
+  line-height: 36px;
+}
+
+h3 {
+  line-height: 30px;
+}
+
+h4 {
+  line-height: 24px;
+}
